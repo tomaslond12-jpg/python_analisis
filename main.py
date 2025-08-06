@@ -1,6 +1,5 @@
 
 from data_science_bussines.calculations import Calculations
-
 def main():
     calculations = Calculations()
     
@@ -12,8 +11,10 @@ def main():
     print("Revenue per industry:")
     print(rev_per_industry)
     print("Industry with the highest revenue:", highest_rev_industry)
+    
+    
 
     # Siempre que quiero utilizar una clase, debeo hacer una instancia para operar el objeto  'calculations = Calculations()'
 
 if __name__ == "__main__":
-    main()
+    main()d
