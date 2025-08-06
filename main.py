@@ -1,5 +1,5 @@
 
-from .data_science_bussines.calculations import Calculations
+from data_science_bussines.calculations import Calculations
 
 def main():
     calculations = Calculations()

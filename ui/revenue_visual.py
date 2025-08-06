@@ -1,4 +1,4 @@
-from ..data_science_bussines.calculations import revenue_per_industry
+from data_science_bussines.calculations import revenue_per_industry
 import matplotlib.pyplot as plt
 
 # Get the data for revenue per industry

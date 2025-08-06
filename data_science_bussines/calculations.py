@@ -2,7 +2,7 @@ import pandas
 
 class Calculations:
     def __init__(self):
-        self._file_path : str = "data/data.csv" 
+        self._file_path : str = "data_science_bussines/data/data.csv" 
     
     def load_data(self):        
         df = pandas.read_csv(self._file_path)
